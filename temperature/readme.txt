@@ -4,3 +4,8 @@ Temperature Sensor
 -	Flashes onboard blue LED (D7) with every report
 -	Uses OneWire library to read sensor
 -	Code from https://docs.particle.io/tutorials/projects/maker-kit/#tutorial-4-temperature-logger  
+-	Using a 3-wire temperature sensor like the DS18B20:
+-- red wire on 3.3 V
+-- yellow wire on D4 pin
+-- black wire on GND
+-- 4.7K resistor across yellow & red wires
