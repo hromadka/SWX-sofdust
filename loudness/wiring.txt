@@ -1,0 +1,10 @@
+Grove:
+yellow -> D0
+white -> n/a
+red -> 3.3V
+black -> GND
+
+put a 4.7K resistor across yellow and red
+
+
+For my app, I also included my usual LED on D6, and 330ohm resistor across LED to GND
