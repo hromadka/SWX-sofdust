@@ -77,7 +77,7 @@ void loop() {
 
   // all too easy...
   digitalWrite(led1, HIGH);
-  Particle.publish("temperature", "13", 3600, PRIVATE);
+  Particle.publish("hello-world", "13", 3600, PRIVATE);
   digitalWrite(led2, LOW);
   
 
